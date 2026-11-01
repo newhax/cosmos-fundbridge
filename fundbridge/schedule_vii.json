@@ -1,0 +1,27 @@
+{
+  "_about": "Schedule VII of the Companies Act, 2013 (activities which may be included by companies in their CSR policies). Only entries marked verified=true were read from an official source; the rest must be checked against the official text (India Code / MCA gazette) by an admin before they are relied on. Schedule VII entries are to be interpreted liberally (MCA General Circular 21/2014).",
+  "official_source": "https://upload.indiacode.nic.in/schedulefile?aid=AC_CEN_22_29_00008_201318_1517807327856&rid=79",
+  "retrieved": "2026-11-01: item text below was read from the India Code search extract of this file; the file itself could not be downloaded from this machine (connection refused), so other items are left for an admin to fill in.",
+  "items": [
+    {"item": "(i)", "verified": true,
+     "text": "Eradicating hunger, poverty and malnutrition, promoting health care including preventive health care and sanitation ... and making available safe drinking water",
+     "note": "Extract; '...' marks words not shown in the source extract."},
+    {"item": "(ii)", "verified": true,
+     "text": "Promoting education, including special education and employment enhancing vocation skills especially among children, women, elderly and the differently abled and livelihood enhancement projects"}
+  ],
+  "sector_items": {
+    "education": ["(ii)"],
+    "livelihood": ["(ii)"],
+    "health": ["(i)"],
+    "water and sanitation": ["(i)"],
+    "hunger and poverty": ["(i)"],
+    "environment": [],
+    "rural development": [],
+    "women empowerment": [],
+    "child welfare": [],
+    "disability and elderly": [],
+    "sports and culture": [],
+    "disaster relief": [],
+    "other": []
+  }
+}

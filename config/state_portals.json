@@ -1,0 +1,185 @@
+{
+  "_about": "State and UT CSR portal links shown to users. Empty (null) unless confirmed. Never invent URLs: add one only after opening it and noting where it was confirmed. Admins can edit this in the app (scoped to their states).",
+  "portals": {
+    "35": {
+      "name": "Andaman and Nicobar Islands",
+      "url": null,
+      "note": ""
+    },
+    "28": {
+      "name": "Andhra Pradesh",
+      "url": null,
+      "note": ""
+    },
+    "12": {
+      "name": "Arunachal Pradesh",
+      "url": null,
+      "note": ""
+    },
+    "18": {
+      "name": "Assam",
+      "url": null,
+      "note": ""
+    },
+    "10": {
+      "name": "Bihar",
+      "url": null,
+      "note": ""
+    },
+    "4": {
+      "name": "Chandigarh",
+      "url": null,
+      "note": ""
+    },
+    "22": {
+      "name": "Chhattisgarh",
+      "url": null,
+      "note": ""
+    },
+    "7": {
+      "name": "Delhi",
+      "url": null,
+      "note": ""
+    },
+    "30": {
+      "name": "Goa",
+      "url": null,
+      "note": ""
+    },
+    "24": {
+      "name": "Gujarat",
+      "url": null,
+      "note": ""
+    },
+    "6": {
+      "name": "Haryana",
+      "url": null,
+      "note": ""
+    },
+    "2": {
+      "name": "Himachal Pradesh",
+      "url": null,
+      "note": ""
+    },
+    "1": {
+      "name": "Jammu and Kashmir",
+      "url": null,
+      "note": ""
+    },
+    "20": {
+      "name": "Jharkhand",
+      "url": null,
+      "note": ""
+    },
+    "29": {
+      "name": "Karnataka",
+      "url": null,
+      "note": ""
+    },
+    "32": {
+      "name": "Kerala",
+      "url": null,
+      "note": ""
+    },
+    "37": {
+      "name": "Ladakh",
+      "url": null,
+      "note": ""
+    },
+    "31": {
+      "name": "Lakshadweep",
+      "url": null,
+      "note": ""
+    },
+    "23": {
+      "name": "Madhya Pradesh",
+      "url": null,
+      "note": ""
+    },
+    "27": {
+      "name": "Maharashtra",
+      "url": null,
+      "note": ""
+    },
+    "14": {
+      "name": "Manipur",
+      "url": null,
+      "note": ""
+    },
+    "17": {
+      "name": "Meghalaya",
+      "url": null,
+      "note": ""
+    },
+    "15": {
+      "name": "Mizoram",
+      "url": null,
+      "note": ""
+    },
+    "13": {
+      "name": "Nagaland",
+      "url": null,
+      "note": ""
+    },
+    "21": {
+      "name": "Odisha",
+      "url": "https://csr.odisha.gov.in/",
+      "note": "Odisha CSR portal (Government of Odisha); page https://csr.odisha.gov.in/viewFaq.aspx opened 2026-11-01"
+    },
+    "34": {
+      "name": "Puducherry",
+      "url": null,
+      "note": ""
+    },
+    "3": {
+      "name": "Punjab",
+      "url": null,
+      "note": ""
+    },
+    "8": {
+      "name": "Rajasthan",
+      "url": null,
+      "note": ""
+    },
+    "11": {
+      "name": "Sikkim",
+      "url": null,
+      "note": ""
+    },
+    "33": {
+      "name": "Tamil Nadu",
+      "url": null,
+      "note": ""
+    },
+    "36": {
+      "name": "Telangana",
+      "url": null,
+      "note": ""
+    },
+    "38": {
+      "name": "The Dadra and Nagar Haveli and Daman and Diu",
+      "url": null,
+      "note": ""
+    },
+    "16": {
+      "name": "Tripura",
+      "url": null,
+      "note": ""
+    },
+    "9": {
+      "name": "Uttar Pradesh",
+      "url": null,
+      "note": ""
+    },
+    "5": {
+      "name": "Uttarakhand",
+      "url": null,
+      "note": ""
+    },
+    "19": {
+      "name": "West Bengal",
+      "url": "https://csr.wb.gov.in/",
+      "note": "West Bengal CSR Portal (Government of West Bengal); seen 2026-11-01 via its published user manual at https://csr.wb.gov.in/CSR/Page/Department_User_Manual.pdf"
+    }
+  }
+}

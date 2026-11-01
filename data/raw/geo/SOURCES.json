@@ -1,0 +1,11 @@
+{
+  "_source": "India Data Portal, 'LGD Codes' (https://ckandev.indiadataportal.com/dataset/lgd-codes), ODC-BY; republishes lgdirectory.gov.in",
+  "state-lgd-codes.csv": {
+    "url": "https://ckandev.indiadataportal.com/dataset/a7419751-ac37-46ad-b938-638cda7b7b60/resource/9ac39fa8-29b4-41e4-acdb-c81190a8c56f/download/state-lgd-codes.csv",
+    "downloaded_at": "2026-11-01T08:38:00+05:30"
+  },
+  "district-lgd-codes.csv": {
+    "url": "https://ckandev.indiadataportal.com/dataset/a7419751-ac37-46ad-b938-638cda7b7b60/resource/19df978a-675e-4ff5-8015-d0e1de447319/download/district-lgd-codes.csv",
+    "downloaded_at": "2026-11-01T08:38:00+05:30"
+  }
+}

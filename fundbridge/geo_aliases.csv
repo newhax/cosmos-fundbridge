@@ -1,0 +1,31 @@
+alias,type,state,canonical,relation,note
+Orissa,state,,Odisha,old_name,Renamed 2011
+Pondicherry,state,,Puducherry,old_name,Renamed 2006
+Uttaranchal,state,,Uttarakhand,old_name,Renamed 2007
+NCT of Delhi,state,,Delhi,variant,
+National Capital Territory of Delhi,state,,Delhi,variant,
+J&K,state,,Jammu and Kashmir,abbreviation,
+J & K,state,,Jammu and Kashmir,abbreviation,
+A&N Islands,state,,Andaman and Nicobar Islands,abbreviation,
+Andaman & Nicobar,state,,Andaman and Nicobar Islands,variant,
+Andaman and Nicobar,state,,Andaman and Nicobar Islands,variant,
+Chattisgarh,state,,Chhattisgarh,variant,
+Telengana,state,,Telangana,variant,
+Tamilnadu,state,,Tamil Nadu,variant,
+Lakshadweep Islands,state,,Lakshadweep,variant,
+Dadra Nagar Haveli and Daman and Diu,state,,The Dadra and Nagar Haveli and Daman and Diu,variant,Spelling used in the MCA CSR export
+Dadra and Nagar Haveli and Daman and Diu,state,,The Dadra and Nagar Haveli and Daman and Diu,variant,
+Daman and Diu,state,,The Dadra and Nagar Haveli and Daman and Diu,merged,Merged into one UT on 26 Jan 2020
+Dadra and Nagar Haveli,state,,The Dadra and Nagar Haveli and Daman and Diu,merged,Merged into one UT on 26 Jan 2020
+Allahabad,district,Uttar Pradesh,Prayagraj,old_name,Renamed 2018
+Faizabad,district,Uttar Pradesh,Ayodhya,old_name,Renamed 2018
+Gurgaon,district,Haryana,Gurugram,old_name,Renamed 2016
+Mewat,district,Haryana,Nuh,old_name,Renamed 2016
+Bangalore Urban,district,Karnataka,Bengaluru Urban,old_name,Renamed 2014
+Bangalore Rural,district,Karnataka,Bengaluru Rural,old_name,Renamed 2014
+Belgaum,district,Karnataka,Belagavi,old_name,Renamed 2014
+Mysore,district,Karnataka,Mysuru,old_name,Renamed 2014
+Ahmedabad,district,Gujarat,Ahmadabad,variant,LGD spells it Ahmadabad
+Kanyakumari,district,Tamil Nadu,Kanniyakumari,variant,LGD spells it Kanniyakumari
+Bardhaman,district,West Bengal,Purba Bardhaman|Paschim Bardhaman,split,Split in 2017; rows are kept at state level only
+Burdwan,district,West Bengal,Purba Bardhaman|Paschim Bardhaman,split,Old spelling of Bardhaman; split in 2017

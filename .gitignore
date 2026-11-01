@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+node_modules/
+frontend/dist/
+data/processed/
+data/processed_test/
+data/memory/

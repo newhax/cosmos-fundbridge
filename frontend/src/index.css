@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-page font-sans text-[15px] tracking-[-0.011em] text-ink-900 antialiased; }
+  h1, h2, h3 { @apply font-semibold tracking-tighter text-ink-900; }
+  ::selection { @apply bg-ink-900 text-white; }
+  :focus-visible { outline: 2px solid #0a0a0a; outline-offset: 2px; }
+  th { @apply text-xs font-medium text-ink-500; }
+  input[type="checkbox"], input[type="radio"] { accent-color: #0a0a0a; }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-h-[42px] items-center justify-center gap-1.5 whitespace-nowrap rounded-btn px-5 py-2 text-sm font-medium
+      transition duration-300 ease-smooth active:scale-[.98] disabled:pointer-events-none disabled:opacity-40;
+  }
+  .btn-primary { @apply btn bg-ink-900 text-white hover:bg-ink-700; }
+  .btn-ghost { @apply btn bg-white text-ink-900 ring-1 ring-inset ring-ink-900/10 hover:ring-ink-900/40; }
+  .btn-accent { @apply btn bg-ink-900 text-white hover:bg-ink-700; }
+  .btn-on-dark { @apply btn bg-white text-ink-900 hover:bg-ink-200; }
+
+  .input {
+    @apply w-full rounded-field border border-ink-900/10 bg-white px-4 py-3 text-sm text-ink-900 transition duration-300 ease-smooth
+      placeholder:text-ink-400 hover:border-ink-900/25 focus:border-ink-900 focus:outline-none;
+  }
+  .label { @apply mb-1.5 block text-xs font-medium text-ink-500; }
+  .card { @apply rounded-card bg-white p-6 shadow-soft; }
+  .badge { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-0.5 text-[11px] font-medium; }
+
+  /* Arrow link: the arrow slides right on hover. */
+  .link-arrow { @apply inline-flex items-center gap-1.5 font-medium text-ink-900 no-underline transition-all duration-300; }
+  .link-arrow::after { content: "→"; @apply transition-transform duration-300 ease-smooth; }
+  .link-arrow:hover::after { transform: translateX(4px); }
+
+  /* Nav label that rolls up to a copy of itself on hover (the copy comes from data-label). */
+  .nav-roll { @apply relative inline-block overflow-hidden align-bottom; }
+  .nav-roll > span { @apply block transition-transform duration-300 ease-smooth; }
+  .nav-roll::after {
+    content: attr(data-label);
+    @apply absolute left-0 top-full block w-full transition-transform duration-300 ease-smooth;
+  }
+  .group:hover .nav-roll > span, .group:hover .nav-roll::after { transform: translateY(-100%); }
+
+  /* Small numbered eyebrow ("001") used above section titles. */
+  .eyebrow { @apply text-sm font-medium tabular-nums tracking-snug; }
+  .page-bg { }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
