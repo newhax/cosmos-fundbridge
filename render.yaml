@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fundbridge
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/status
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: DEMO_MODE
+        value: "true"
+      - key: MEMORY_BACKEND
+        value: local
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
